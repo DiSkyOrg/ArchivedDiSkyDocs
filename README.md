@@ -1,3 +1,11 @@
+Official repository for **DiSky's Docs / Wiki**!
+
+Available here: https://disky.tech/wiki/
+
+***
+
+# Contributing
+
 You have some free time and want to contrbute to this wiki?
 Or you simply found a mistake somewhere?
 
