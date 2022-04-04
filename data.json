@@ -1,0 +1,19 @@
+{
+    "pages": [
+        {
+            "name": "Home",
+            "title": "Home / Index",
+            "id": "home"
+        },
+        {
+            "name": "Installation",
+            "title": "Installation",
+            "id": "install"
+        },
+        {
+            "name": "How to contribute?",
+            "title": "How to contribute?",
+            "id": "contribute"
+        }
+    ]
+}
