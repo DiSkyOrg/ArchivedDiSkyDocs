@@ -1,7 +1,7 @@
 You have some free time and want to contribute to this wiki?
 Or you simply found a mistake somewhere and want to correct it?
 
-Every page on this wiki is **open-source**, which means everyone can change, add or update it!
+Each page on this wiki is **open-source**, which means everyone can change, add or update it!
 
 ## 1. Understand GitHub
 
@@ -15,9 +15,9 @@ Wait a few minutes while your new repository is being setup, and there you go! Y
 
 You **must not** change how files & folders are organized. Here's a quick recap of main contents:
 
-* `pages/` - Where every page's content is stored, written in **Markdown**
-* `static/` - Where every static-content, such as video, image etc., is stored.
-* `data.json` - Where every page's data such as name, title and file is stored, written in **JSON**
+* `pages/` - Where each page's content is stored, written in **Markdown**
+* `static/` - Where all static-content, such as videos, images etc., are stored.
+* `data.json` - Where each page's data such as a name, title and file is stored, written in **JSON**
 * `emojis.json` - Where all emojis are stored, to be replaced in markdown content, written in **JSON**
 * `logo.png` - The main DiSky's logo, currently unused.
 
@@ -37,7 +37,7 @@ Once half of the validated contributors approve of your changes, and there's not
 2. Open the file (through GitHub editor, or download it to upload it later).
 3. Make your modifications and save your files.
 
-Go into part `3.` in order to contribute your changes.
+Go to part `3.` in order to contribute your changes.
 
 ## Example: Creating a new page
 
@@ -47,4 +47,4 @@ Go into part `3.` in order to contribute your changes.
 
 > :warning: Don't forget to also save the `data.json` file!
 
-Go into part `3.` in order to contribute your changes.
+Go to part `3.` in order to contribute your changes.
