@@ -10,16 +10,16 @@ Instead of being in a trigger (such as on load or a command), a scope is the tri
 Scope comes with two sort of **entry** (entry looks like `name: value`):
 
 * Value entry (form: `name: value`), event-related literals are forbidden (only global variable & script options works here):
-    ```javascript
+	```javascript
 <scope name>:
-    token: "token"
+		token: "token"
 ```
 
 * Section entry (form: `name: <line break> code ...`), code that could be running.
     ```javascript
 <scope name>:
-    on ready:
-        send "%event-bot% has been loaded!" to console
+		on ready:
+        	send "%event-bot% has been loaded!" to console
 ```
 
 It will load automatically when the code is reloaded.
@@ -45,6 +45,14 @@ define new bot named "BOT NAME":
     policy: all
     auto reconnect: true
     compression: none
+    
+    # Optional section code:
+    # Fired once the bot, and every guilds, are ready-to-use.
+    on ready:
+    	# </>
+    # Fired once a guild, and every members, are ready-to-use
+    on guild ready:
+    	# </>
 ```
 
 Reload your **script**, and wait a little. Your bot should be marked as online!
